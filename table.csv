@@ -111,6 +111,11 @@ ws,                             multiaddr,      0x01dd,
 wss,                            multiaddr,      0x01de,
 p2p-websocket-star,             multiaddr,      0x01df,
 http,                           multiaddr,      0x01e0,
+swhid-1-snp,                    ipld,           0x01f0,         SoftWare Heritage persistent IDentifier version 1 snapshot
+swhid-1-rel,                    ipld,           0x01f1,         SoftWare Heritage persistent IDentifier version 1 release
+swhid-1-rev,                    ipld,           0x01f2,         SoftWare Heritage persistent IDentifier version 1 revision
+swhid-1-dir,                    ipld,           0x01f3,         SoftWare Heritage persistent IDentifier version 1 directory
+swhid-1-cnt,                    ipld,           0x01f4,         SoftWare Heritage persistent IDentifier version 1 content
 json,                           serialization,  0x0200,         JSON (UTF-8-encoded)
 messagepack,                    serialization,  0x0201,         MessagePack
 libp2p-peer-record,             libp2p,         0x0301,         libp2p peer record type
